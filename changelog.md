@@ -1,5 +1,10 @@
 # API changelog
 
+## 2.13.2 (2018-06-14)
+* `GET /employee`
+	* Added **allowInformationRegistration** as query parameter and read-only field
+		The setting determines if salary information can be registered on the user, including hours, travel expenses and employee expenses. The user may also be selected as a project member on projects.
+
 ## 2.13.1 (2018-06-12)
 
 * Added webhook support for Voucher events:
@@ -126,4 +131,3 @@
 	* `productUnit`
 	* `isStockItem` (lagervare)
 	* `stockOfGoods` (lagerbeholdning)
-
